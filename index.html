@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pipeforge · GCP Data Engineering Pipeline</title>
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<nav class="nav" aria-label="Main">
+  <div class="logo"><span class="lg">P</span>Pipeforge</div>
+  <a class="ni" href="#ingest">Ingest</a>
+  <a class="ni" href="#transform">Transform</a>
+  <a class="ni" href="#layers">Layers</a>
+  <a class="ni" href="#quality">Quality</a>
+  <a class="ni" href="#orchestrate">Orchestrate</a>
+  <span class="pill">gcs_raw → bigquery_gold</span>
+</nav>
+<div id="app"></div>
+
+<script src="assets/js/pages/ingest.js"></script>
+<script src="assets/js/pages/transform.js"></script>
+<script src="assets/js/pages/layers.js"></script>
+<script src="assets/js/pages/quality.js"></script>
+<script src="assets/js/pages/orchestrate.js"></script>
+<script src="assets/js/router.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

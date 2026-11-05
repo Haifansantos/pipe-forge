@@ -1,0 +1,4 @@
+*{box-sizing:border-box}
+body{margin:0;background:#F4F5F7;color:#12141C;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid #F7D44C;outline-offset:2px}
